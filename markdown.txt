@@ -1,0 +1,45 @@
+﻿
+![logo](https://i.imgur.com/m62BUez.png "Portal Mod")
+---
+Are you a fan of the *Portal* franchise? Now you can have fun thinking with portals in *Risk of Rain*! This mod adds the **Portal Gun** as an use item, as well as a playable character - **Chell**!
+This mod also adds tons of **easter eggs**... can you find them all? :^)
+
+### **Chell**
+Our wonderfully mute main character has escaped from Aperture Science, but managed to crash land in an unknown planet! Luckily, she brought along some goodies she smuggled from Aperture...
+
+__*Long Fall Boots*__ - Wearing these at all times, *Chell* **does not suffer from fall damage**!
+
+![ability 1](https://i.imgur.com/zTto38x.png "High-Energy Pellet")   __*High-Energy Pellet*__   ![ability 1](https://i.imgur.com/zTto38x.png "High-Energy Pellet")
++ The fizzling bouncy orb is back! It might have a slow attack speed, but it makes up for it with some **powerful impact!** While it might be your main attack, remember **it can make cubes and turrets go flying** (but you wouldn't hit a turret, would you? You monster...)
++ It has a _1:25_ chance of **disintegrating its target**. If you're lucky, it might go off on a boss! Use the flag ``portal_orb_no_fizzling`` to disable this
++ Want some more challenging gameplay? Enable the ``portal_orb_friendly_fire`` flag to make the High-Energy Pellet deal damage to players as well (fair warning, if you're using the Artifact of Glass this will most likely kill you instantly)
+
+![ability 2](https://i.imgur.com/OE8AB5a.png "Companion Cube")   __*Companion Cube*__   ![ability 2](https://i.imgur.com/OE8AB5a.png "Companion Cube")
++ Everyone's favorite sentient cube, with an added twist! The Companion Cube can be flailed around using portals (or the High-Energy Pellet), dealing damage based on **how fast it hit the target**
++ **Reactivate the ability to explode the cube**, dealing damage to all enemies around it in a lovingly explosion
+
+![ability 3](https://i.imgur.com/cZToDKy.png "Portal Gun")   __*Portal Gun*__   ![ability 3](https://i.imgur.com/cZToDKy.png "Portal Gun")
++ A gun that makes holes, but not bullet holes! If two portals are present, you can use them to travel large distances in the blink of an eye
++ **Momentum** (otherwise known as _"speedy thing goes in, speedy thing comes out"_) **is conserved between portals!** Use this knowledge to fling yourself to higher ledges without having to use those pesky ropes and jump pads
+    + ***Note:*** Due to the way _Risk of Rain_ applies horizontal velocity on a character, it is currently not possible to conserve momentum horizontally :'c
++ **Now multidirectional! You can shoot portals in 8 different directions** by holding down the movement keys for that angle (if you want to shoot a portal at 45º, hold Up and Right, then fire the ability)
+    + ***Note:*** Risk of Rain ropes are dumb, so if you enter a portal grabbing a rope you're going to come out of the portal still grabbing it.
++ If you're playing co-op, your portal colors will be those of _Atlas_ and _P-Body_
+
+![ability 4](https://i.imgur.com/P8VNEvs.png "Deploy Turret")   __*Deploy Turret*__   ![ability 4](https://i.imgur.com/P8VNEvs.png "Deploy Turret")
++ These bullet-filled machines are yours to command! Plop 'em down and watch them **shoot any enemy on sight** (as long as its in their sight)
++ Turrets will remain on duty for **30 seconds** (or until they're **defeated by enemies**)
+    + ***Note:*** Due to the way turrets work, at the end of a level, they **will count** towards the *"Enemies remaining"* counter. With this in mind, you should destroy then (or wait for them to despawn)
++ Has the turret outlived its usefulness? Are you an evil person? Well then, go on ahead and **fling it away** using either your _High-Energy Pellets_ or your _Portal Gun_
++ Grab an *Ancient Scepter* to turn your normal turrets into Opera Turrets! These thicc bois deal double the damage and have extra HP
+
+### **Flags (add them on your profile)**
++ ``portal_no_gun_item`` - disable the Portal Gun use item (to avoid dual wielding)
++ ``portal_orb_no_fizzling`` - High-Energy Pellets can no longer instantly kill targets
++ ``portal_orb_friendly_fire`` - High-Energy Pellets will damage allies as well (harder, but in line with the Portal series :^) )
+
+### **Changelog:**
++ **0.1.0** - Initial release.
++ **0.2.0** - Added the survivor Chell. Changed mod name.
+    + **0.2.1** - Fixed some buggy rope behavior. Slight changes to momentum conservation.
++ **1.0.0** - Updated to RoRML 0.2. Fixed major lag issue and some graphical effects.

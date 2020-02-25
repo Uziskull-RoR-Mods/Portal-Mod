@@ -1,0 +1,7 @@
+{
+    "name": "Portal Mod",
+    "description": "Adds Chell from the Portal series as a playable character, as well as a standalone Portal Gun use item.",
+	"internalname": "portalMod",
+    "version": "1.0.0",
+    "author": "Uziskull",
+}
